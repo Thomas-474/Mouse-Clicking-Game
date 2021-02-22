@@ -7,14 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Fastest Clicker In The West</h1>
-    <h3>High Score</h3>
-    <h3 id="highScore">00</h3>
-    <h2 id="countdownClock">--</h2>
-    <h4>Number of Clicks</h4>
-    <h3 id="playerClicks">Player Score</h3>
-    <button onclick="startTimerFunction()">Start Timer</button>
-    <button onclick="scoreFunction()">Click Me For Points</button>
+    <div id="game">
+        <h1>Fastest Clicker In The West</h1>
+
+        <h3>High Score</h3>
+        <h3 id="highScore">00</h3>
+
+        <br>
+
+        <h3>Countdown:</h3>
+        <h2 id="countdownClock">--</h2>
+
+        <br>
+
+        <h4>Number of Clicks:</h4>
+        <h3 id="playerClicks">(Player Score)</h3>
+
+        <br>
+
+        <button onclick="startTimerFunction()">Start Timer</button>
+        <button onclick="scoreFunction()">Click Me For Points</button>
+
+        <br><br>
+
+        <button onclick="resetFunction()">Play Again?</button>
+    </div>
     
     <script src="script.js"></script>
 </body>

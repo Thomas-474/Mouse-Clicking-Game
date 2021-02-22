@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+    text-align:center;
+}
+#game{
+    background-image: url("Desert Ground.jpg");
+}
+
+h1, h2, h3, h4{
+    color: black;
+    text-shadow:
+     -1px -1px 0 #fff,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+  }
+
+  h4 {
+      animation: nom 1s ease;
+  }
+
+  @keyframes nom {
+      0% {
+          transform: translate(-20px,0px);
+      }
+      50% {
+          transform: translate(20px,0px);
+      }
+      100% {
+          transform: translate(-20px,0px);
+      }
+  }
