@@ -11,7 +11,7 @@
         <h1>Fastest Clicker In The West</h1>
 
         <h3>High Score</h3>
-        <h3 id="highScore">00</h3>
+        <h3 id="highScore">0</h3>
 
         <br>
 
@@ -25,12 +25,20 @@
 
         <br>
 
-        <button onclick="startTimerFunction()">Start Timer</button>
-        <button onclick="scoreFunction()">Click Me For Points</button>
+        <h4>CPS</h4>
+        <h3 id='clicksPerSecond'>--</h3>
+
+        <br>
+        
+        <button id='scoreButton' onclick="scoreFunction()"></button>
+        
+        <br><br>
+
+        <button id='button' onclick="startTimerFunction()">Start Timer</button>
 
         <br><br>
 
-        <button onclick="resetFunction()">Play Again?</button>
+        <button id='button' onclick="resetFunction()">Play Again?</button>
     </div>
     
     <script src="script.js"></script>
